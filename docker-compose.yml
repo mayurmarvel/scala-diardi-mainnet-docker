@@ -5,6 +5,7 @@ services:
     build: .
     container_name: diardi_mainnet
     network_mode: "host"
+    ports:
+      - "11811:11811"
     volumes:
       - ./:/Diardi
-  

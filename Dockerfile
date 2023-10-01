@@ -17,7 +17,7 @@ WORKDIR /root
 COPY start.sh /root/start.sh
 RUN chmod +x /root/start.sh
 
-EXPOSE 22821-22822
+EXPOSE 11811
 
 # CMD ["./scalad"]
 # CMD ["./scala-wallet-cli"]
